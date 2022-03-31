@@ -6,7 +6,7 @@ int main(){
 	int n=0;
 	printf("Enter the number of terms upto which you want the sum:");
 	scanf("%d",&n);
-	printf("%d",sumnNatural(n));
+	printf("The sum of first %d natural numbers is:%d",n,sumnNatural(n));
 	return 0;
 }
 int sumnNatural(int a){
