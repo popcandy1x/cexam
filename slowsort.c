@@ -11,6 +11,7 @@ int main(){
 	if(ptr==NULL)
 	{
 		printf("Space Insufficient to allocate memory\n");
+		exit(0);
 	}
 	else
 	{
